@@ -118,7 +118,7 @@ void loop() {
       analogWrite(m1En, 255);
       digitalWrite(m1Dr, LOW);
       digitalWrite(m1Dr2, HIGH);
-      analogWrite(m2En, speeds[speedSet]);
+      analogWrite(m2En, 255);
       digitalWrite(m2Dr, LOW);
       digitalWrite(m2Dr2, HIGH);
       Serial.println("right");
